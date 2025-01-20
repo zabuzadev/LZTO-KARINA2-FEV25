@@ -113,7 +113,7 @@ export default function Form() {
                 id="fullname"
                 type="text"
                 placeholder="Tu Nombre"
-                className="bg-blue-50 border-blue-300 h-12 active:bg-blue-100 hover:bg-blue-200"
+                className="bg-blue-50 border-blue-300 h-12 active:bg-blue-100 hover:bg-blue-200 text-black"
                 required
                 value={fullname}
                 onChange={(e) => setFullname(e.target.value)}
@@ -122,7 +122,7 @@ export default function Form() {
                 id="email"
                 type="email"
                 placeholder="Correo que más uses"
-                className="bg-blue-50 border-blue-300 h-12"
+                className="bg-blue-50 border-blue-300 h-12 active:bg-blue-100 hover:bg-blue-200 text-black"
                 required
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
