@@ -37,7 +37,7 @@ export default function Section3() {
             number: "4",
             img: "/images/classe04.webp",
             date: {
-                day: "28/01,",
+                day: "30/01,",
                 semanaHora: " Martes - 7PM (CDMX)",
             },
             title: "El Sistema para transformar vidas y vivir de tu consulta mientras dejas un legado de servicio",

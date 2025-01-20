@@ -47,10 +47,10 @@ export default function Section2() {
                     </span>
                 </div>
 
-                <div className="text-lg py-2 space-y-2 px-12 max-w-3xl">
+                <div className="text-lg py-2 space-y-2  max-w-3xl">
                     {items.map((item, i) => (
                         <div key={i} className="flex justify-center items-center">
-                            <ArrowRightSquare size={28} className="text-karina-secundary w-28" />
+                            <ArrowRightSquare size={28} className="text-karina-secundary w-16 md:w-28 " />
                             <div className="w-full">
                                 <span className="font-bold">{item.negrito} </span>
                                 <span>{item.normal}</span>

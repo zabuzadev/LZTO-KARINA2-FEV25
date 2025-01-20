@@ -63,7 +63,7 @@ export default function Section4() {
                     ))}
                 </div>
             </div>
-            <div className="flex justify-center w-full">
+            <div className="flex justify-center w-full px-4">
                 <ButtonRegistrar 
                     text=" ¡QUIERO REGISTRARME GRATIS!" 
                 />
