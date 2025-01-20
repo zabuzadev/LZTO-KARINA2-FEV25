@@ -74,7 +74,7 @@ export default function Form() {
     };
 
 
-    fetch('https://n8n.aesmkt.com.br/webhook/COLOQUE O ID DO WENHOOK', {
+    fetch('https://n8n.aesmkt.com.br/webhook/karina-lzto-ener25', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -84,7 +84,7 @@ export default function Form() {
       .then(response => response.json())
       .then(result => {
         console.log('Webhook disparado com sucesso:', result);
-        window.location.href = '/gracias';
+        window.location.href = 'https://www.terapiaefectiva.com/tksmapa';
       })
       .catch(error => {
         console.error('Erro ao disparar o webhook:', error);
